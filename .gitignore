@@ -1,0 +1,27 @@
+# Bytecode / env
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec.local
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local / secrets (never commit)
+.env
+*.local
+
+# Optional: sample user state in repo root (real state lives in %LOCALAPPDATA%\CorePilot)
+# data/user_state.json
